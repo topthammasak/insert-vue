@@ -1,0 +1,17 @@
+// Here you can add other styles
+.main .container-fluid {
+    padding: 10px;
+}
+
+@media (max-width: 575.98px){
+    .aside-menu-show .main:before, .sidebar-show .main:before {
+        position: unset;
+        top: unset;
+        left: unset;
+        z-index: unset;
+        width: unset;
+        height: unset;
+        content: unset;
+        background:unset;
+    }
+}
